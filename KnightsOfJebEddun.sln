@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FB93377C-E884-11E9-B2EC-07CAE9FAF8B1}") = "KnightsOfJebEddun", "KnightsOfJebEddun\KnightsOfJebEddun.csproj", "{06BBFD8C-E885-11E9-8036-3B8C470C083A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		KSP-1.7|Any CPU = KSP-1.7|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06BBFD8C-E885-11E9-8036-3B8C470C083A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06BBFD8C-E885-11E9-8036-3B8C470C083A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06BBFD8C-E885-11E9-8036-3B8C470C083A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06BBFD8C-E885-11E9-8036-3B8C470C083A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06BBFD8C-E885-11E9-8036-3B8C470C083A}.KSP-1.7|Any CPU.ActiveCfg = KSP-1.7|Any CPU
+		{06BBFD8C-E885-11E9-8036-3B8C470C083A}.KSP-1.7|Any CPU.Build.0 = KSP-1.7|Any CPU
+	EndGlobalSection
+EndGlobal
