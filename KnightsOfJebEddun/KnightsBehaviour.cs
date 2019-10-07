@@ -1,4 +1,6 @@
+using System;
 using ContractConfigurator;
+using UnityEngine;
 
 namespace KnightsOfJebEddun
 {
@@ -9,6 +11,10 @@ namespace KnightsOfJebEddun
                 float currentLvl = ScenarioUpgradeableFacilities.GetFacilityLevel(SpaceCenterFacility.MissionControl);
                 if (currentLvl < 2)
                 {
+                    foreach (String k in ScenarioUpgradeableFacilities.protoUpgradeables.Keys)
+                    {
+                        Debug.Log($"k = {k}");
+                    }
                     ScenarioUpgradeableFacilities.protoUpgradeables[
                         SpaceCenterFacility.MissionControl.ToString()].facilityRefs[0].SetLevel(2);
                 }
