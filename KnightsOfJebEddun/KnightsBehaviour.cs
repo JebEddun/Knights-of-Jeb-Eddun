@@ -11,9 +11,12 @@ namespace KnightsOfJebEddun
                 float currentLvl = ScenarioUpgradeableFacilities.GetFacilityLevel(SpaceCenterFacility.MissionControl);
                 if (currentLvl < 2)
                 {
+                    Debug.Log($"Knights: MissionControl = {SpaceCenterFacility.MissionControl} ({SpaceCenterFacility.MissionControl.ToString()})");
+                    Debug.Log($"Knights: RnD = {SpaceCenterFacility.ResearchAndDevelopment} ({SpaceCenterFacility.ResearchAndDevelopment.ToString()})");
+
                     foreach (String k in ScenarioUpgradeableFacilities.protoUpgradeables.Keys)
                     {
-                        Debug.Log($"k = {k}");
+                        Debug.Log($"Knights: k = {k}");
                     }
                     ScenarioUpgradeableFacilities.protoUpgradeables[
                         SpaceCenterFacility.MissionControl.ToString()].facilityRefs[0].SetLevel(2);
